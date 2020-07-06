@@ -1,12 +1,9 @@
 <settings>
 	<servers>
 		<server>
-			<id>
-
-			</id>
-			<username>
-			</username>
-			<password></password>
+			<id>ap-server</id>
+			<username>abhay93</username>
+			<password>Maya@128125</password>
 		</server>
 	</servers>
 </settings>

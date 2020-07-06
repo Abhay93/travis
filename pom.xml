@@ -35,8 +35,9 @@
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>${app.runtime}</muleVersion>
-						<username>abhay.yadav@apisero.com</username>
-						<password>Maya@128125</password>
+						<server>ap-server</server>
+<!-- 						<username>abhay.yadav@apisero.com</username> -->
+<!-- 						<password>Maya@128125</password> -->
 						<applicationName>travis-test</applicationName>
 						<environment>Sandbox</environment>
 						<!-- <region>${region}</region> -->
