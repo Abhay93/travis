@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="travisFlow" doc:id="3b386aef-3456-4c21-a8f7-82dba77693f9" >
 		<http:listener doc:name="Listener" doc:id="5413a530-a7d1-47d7-8a51-e04ccf4a9348" config-ref="HTTP_Listener_config" path="/travis"/>
-		<set-payload value='#["Congrats, deployed using Travis"]' doc:name="Set Payload" doc:id="2ee996c5-0644-453f-97f3-f24c5e430e72" />
+		<set-payload value='#["Congrats, deplo using Travis"]' doc:name="Set Payload" doc:id="2ee996c5-0644-453f-97f3-f24c5e430e72" />
 	</flow>
 </mule>
