@@ -10,6 +10,5 @@ jobs:
      name: "Deploy stage"
      script:
           - mvn clean install
-          - cp .travis.settings.xml $HOME/.m2/settings.xml
-          - mvn deploy -DmuleDeploy
+          - mvn deploy -DmuleDeploy -Dusername=abhay.yadav@apisero.com -Dpwd=Maya@128125
      if: branch = dev

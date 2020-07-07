@@ -36,8 +36,8 @@
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>${app.runtime}</muleVersion>
 						<server>ap-server</server>
-<!-- 						<username>abhay.yadav@apisero.com</username> -->
-<!-- 						<password>Maya@128125</password> -->
+						<username>${username}</username>
+						<password>${pwd}</password>
 						<applicationName>travis-test</applicationName>
 						<environment>Sandbox</environment>
 						<!-- <region>${region}</region> -->
