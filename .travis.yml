@@ -10,5 +10,5 @@ jobs:
      name: "Deploy stage"
      script:
           - mvn clean install
-          - mvn deploy -DmuleDeploy -Dusername=abhay.yadav@apisero.com -Dpwd=Maya@128125
+          - mvn deploy -DmuleDeploy -Dusername=apiseroCheck -Dpwd=Maya@128125
      if: branch = dev
