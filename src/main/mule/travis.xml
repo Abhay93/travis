@@ -4,6 +4,9 @@
 	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="0665dee3-d094-45b6-9310-a364690c729b" >
+		<http:listener-connection host="0.0.0.0" port="8081" />
+	</http:listener-config>
 	<flow name="travisFlow"  >
 		<http:listener doc:name="Listener"  config-ref="HTTP_Listener_config" path="/travis"/>
 		<set-payload value='#["Congrats, deployed using Travis"]' doc:name="Set Payload"  />
