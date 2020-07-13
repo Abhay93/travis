@@ -40,8 +40,8 @@
 						<applicationName>travis-demo-app</applicationName>
 						<environment>Sandbox</environment>
 						<objectStoreV2>true</objectStoreV2>
-						<workers>1</workers>
-						<workerType>MICRO</workerType>
+<!-- 						<workers>1</workers> -->
+<!-- 						<workerType>MICRO</workerType> -->
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
