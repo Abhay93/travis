@@ -33,18 +33,11 @@
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>${app.runtime}</muleVersion>
-<!-- 						<server>ap-server</server> -->
 						<username>${username}</username>
 						<password>${pwd}</password>
-						<applicationName>try-travis</applicationName>
+						<applicationName>travis-demo-app</applicationName>
 						<environment>Sandbox</environment>
-						<!-- <region>${region}</region> -->
-						<workers>1</workers>
-						<workerType>MICRO</workerType>
 						<objectStoreV2>true</objectStoreV2>
-						<!-- <properties> -->
-						<!-- <key>value</key> -->
-						<!-- </properties> -->
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
